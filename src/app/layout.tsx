@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Deep Patel — Software Engineering Graduate",
     description:
       "Brisbane-based Software Engineering graduate from QUT building practical tools across data, automation, geospatial systems, and AI.",
