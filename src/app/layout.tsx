@@ -13,9 +13,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-kappa-nine-b19kcnl03e.vercel.app"),
   title: "Deep Patel — Software Engineering Graduate",
   description:
     "Brisbane-based Software Engineering graduate from QUT building practical tools across data, automation, geospatial systems, and AI.",
+  openGraph: {
+    title: "Deep Patel — Software Engineering Graduate",
+    description:
+      "Brisbane-based Software Engineering graduate from QUT building practical tools across data, automation, geospatial systems, and AI.",
+    url: "/",
+    siteName: "Deep Patel — Portfolio",
+    locale: "en_AU",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Deep Patel — Software Engineering Graduate",
+    description:
+      "Brisbane-based Software Engineering graduate from QUT building practical tools across data, automation, geospatial systems, and AI.",
+  },
 };
 
 export default function RootLayout({

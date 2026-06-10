@@ -2,6 +2,8 @@
 
 Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
+**Live site:** [portfolio-kappa-nine-b19kcnl03e.vercel.app](https://portfolio-kappa-nine-b19kcnl03e.vercel.app/)
+
 ## Getting started
 
 ```bash
@@ -36,6 +38,11 @@ PDF to update it.
 | `npm run build` | Production build           |
 | `npm run start` | Serve the production build |
 | `npm run lint`  | Run ESLint                 |
+
+## Deployment
+
+Hosted on [Vercel](https://vercel.com) — every push to `main` deploys
+automatically. No environment variables or build configuration needed.
 
 ## Structure
 
